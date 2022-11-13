@@ -27,6 +27,7 @@ import { ImageCompressComponent } from './components/image-compress/image-compre
 import {NgxImageCompressService} from 'ngx-image-compress';
 import { DropAndDragComponent } from './components/drop-and-drag/drop-and-drag.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { QuantizationTablesComponent } from './components/quantization-tables/quantization-tables.component';
 
 @NgModule({
   declarations: [
@@ -44,6 +45,7 @@ import { FooterComponent } from './components/footer/footer.component';
     ImageCompressComponent,
     DropAndDragComponent,
     FooterComponent,
+    QuantizationTablesComponent,
   ],
   imports: [
     BrowserModule, 
